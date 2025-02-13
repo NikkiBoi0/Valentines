@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gifElement = document.getElementById("gifElement");
-    const HeartStart = "HeartStart.gif";
-    const HeartBeat = "HeartBeat.gif";
-    const HeartStatic = "HeartStatic.png";
+    const HeartStart = "./Animations/HeartStart.gif";
+    const HeartBeat = "./Animations/HeartBeat.gif";
+    const HeartStatic = "./Animations/HeartStatic.png";
 
     let animationPlaying = false;
 
@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
         animationPlaying = false;
     });
 });
+
+
