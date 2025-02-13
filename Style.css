@@ -1,0 +1,44 @@
+body {
+    background-image: url("SparklesBackground.gif");
+    background-size: cover;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-center {
+    margin: auto;
+}
+.heart {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: url('HeartStatic.png') center/cover no-repeat;
+    transition: background 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+/*.heart:hover {
+    
+    background-image: url('HeartPound.gif');
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+/*height: 100vh;
+position: relative;
+
+margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    */
